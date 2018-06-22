@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block header %}
+
+    <header class="bg-gradient" id="home">
+        <div class="container mt-5">
+            <h1>Drive.ai Mobile App</h1>
+            <p class="tagline">Take a ride in our self driving car</p>
+        </div>
+        <div class="img-holder mt-3"><img src="static/images/iphonex.png" alt="phone" class="img-fluid"></div>
+    </header>
+
+{% endblock %} 
+
+{% block body %}
+    <div class="section bg-gradient" id="download">
+        <div class="container">
+            <div class="call-to-action">
+                <!--
+                <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+            -->
+                <h2>Download Now</h2>
+                <p class="tagline">Available on iOS and Andriod </p>
+                <div class="my-4">
+
+                    <a href="https://itunes.apple.com/us/app/uber/id368677378?mt=8" class="btn btn-light"><img src="static/images/appleicon.png" alt="icon"> App Store</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.drive.ai" class="btn btn-light"><img src="static/images/playicon.png" alt="icon"> Google play</a>
+                </div>
+                <!--
+                <p class="text-primary"><small><i> Download now! </i></small></p>
+            -->
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="light-bg py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left">
+                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 365 Ravendale Dr, Mountain View, CA 94043</p>
+                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 33010 Gaylord Parkway, Suite 140, Frisco, Texas 75034</p>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2">
+                            <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:sappsupport@drive.ai">appsupport@drive.ai</a>
+                        </p>
+                    </div>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-0">
+                            <span class="ti-headphone-alt mr-2"></span> <a href="tel:XYZ4567869">XYZ-456-7869</a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/driveai/"><span class="ti-facebook"></span></a>
+                        <a href="https://twitter.com/driveai_"><span class="ti-twitter-alt"></span></a>
+                        <a href="https://www.instagram.com/drive.ai/"><span class="ti-instagram"></span></a>
+                        <a href="https://www.linkedin.com/company/drive.ai/"><span class="ti-linkedin"></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+{% endblock %}
